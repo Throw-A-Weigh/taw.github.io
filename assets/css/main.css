@@ -235,6 +235,15 @@ input, select, textarea {
 		text-align: right;
 	}
 
+	.myHeading a {
+		margin-right:10px;
+	}
+
+	.myHeading h3, .myHeading a {
+		display:inline-flex;
+		vertical-align:baseline;
+	}
+
 /* Loader */
 
 	@-moz-keyframes spinner-show {
